@@ -13,4 +13,6 @@ git clone https://github.com/cychrisfds/cpf
 
 cd cpf
 
-python3
+python3 consultaCPF 
+
+so love pra vcs agora😻❤

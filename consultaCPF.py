@@ -25,7 +25,7 @@ sleep(3)
 
 system('clear')
 
-print(f'''{G}*By PoisonBR
+print(f'''{G}*By Cychris <3
 {B} ██████╗██████╗ ███████╗{C}████████╗ ██████╗  ██████╗ ██╗     ███████╗
 {B}██╔════╝██╔══██╗██╔════╝{C}╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
 {B}██║     ██████╔╝█████╗  {C}   ██║   ██║   ██║██║   ██║██║     ███████╗
@@ -82,11 +82,11 @@ def consulta(cpf):
 {C}Cidade: {B}{re.search('NOMUNICIPIO="(.*?)"', r).group(1).title()}-{re.search('SGUF="(.*?)"', r).group(1)}
 {C}CEP: {B}{re.search('NRCEP="(.*?)"', r).group(1)}
 ''')
-		nova = input(f'{C}[{G}+{C}]Deseja realizar uma nova consulta?[{G}s{C}/{R}n{C}]: ').lower()
+		nova = input(f'{C}[{G}+{C}]eae bandido mal vai puxar mais?[{G}s{C}/{R}n{C}]: ').lower()
 		if nova == 's' or nova == 'sim':
 			tipos()
 		else:
-			print(f'\n{C}Me acompanhe no Github: {G}https://github.com/p0isonBR{C}')
+			print(f'\n{C}ajuda nois la na github: {G}https://github.com/cychrisfds{C}')
 			exit()
 	except(AttributeError):
 		print(f'{R}CPF consultado/gerado nao existe{C}')
